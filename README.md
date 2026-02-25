@@ -1,187 +1,73 @@
-# 🛡️ AegisAI — AI-Powered Privacy-Aware Cybersecurity Defense System
+# Welcome to your Lovable project
 
-AegisAI is a full-stack, AI-powered Security Operations Center (SOC) platform designed to detect, analyze, correlate, and explain cyber threats in real time while preserving user privacy.
+## Project info
 
----
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## 🚀 Features
+## How can I edit this code?
 
-- AI-based threat detection system  
-- Real-time monitoring dashboard  
-- Explainable AI (XAI) threat explanations  
-- Honeypot-based attacker tracking  
-- Geo-IP attack visualization  
-- Threat correlation engine  
-- Privacy-first security architecture  
+There are several ways of editing your application.
 
----
+**Use Lovable**
 
-## 🎯 Objective
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-To build a modern SOC-style cybersecurity platform that:
-- Detects suspicious behavior  
-- Analyzes threats using machine learning  
-- Explains detection results  
-- Correlates multiple security events  
-- Provides actionable insights  
-- Maintains strict user privacy  
+Changes made via Lovable will be committed automatically to this repo.
 
----
+**Use your preferred IDE**
 
-## 🧱 Tech Stack
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### Frontend
-- React.js  
-- Tailwind CSS  
-- Chart.js / Recharts  
-- Leaflet / Mapbox  
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### Backend
-- Python (FastAPI)  
-- RESTful APIs  
+Follow these steps:
 
-### Database
-- PostgreSQL  
-- MongoDB (optional for logs)  
-- Redis (optional for caching)  
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
----
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-## 🧠 Core Modules
+# Step 3: Install the necessary dependencies.
+npm i
 
-### Threat Detection
-- IDS – Random Forest  
-- Phishing Detection – SVM / Logistic Regression  
-- Malware Detection – Gradient Boosting  
-- User Behavior Analytics – Isolation Forest  
-- Zero-Day Detection – Anomaly Detection  
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-### Honeypot System
-- Simulated login & API traps  
-- Logs attacker IP, payload, and attempts  
+**Edit a file directly in GitHub**
 
-### Threat Correlation Engine
-Combines detection events using rule-based logic to generate risk scores.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-### Explainable AI (XAI)
-- Confidence scoring  
-- Human-readable explanations  
+**Use GitHub Codespaces**
 
----
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## 🌐 Frontend Dashboard
+## What technologies are used for this project?
 
-- Geo-IP attack map  
-- Real-time alerts panel  
-- Attack timeline  
-- Threat distribution graphs  
-- User behavior anomaly monitoring  
+This project is built with:
 
----
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-## 🔗 API Endpoints
+## How can I deploy this project?
 
-| Method | Endpoint | Description |
-|---------|-----------|--------------|
-| POST | /analyze/network | IDS detection |
-| POST | /analyze/phishing | Phishing scan |
-| POST | /analyze/malware | Malware analysis |
-| POST | /analyze/behavior | User anomaly detection |
-| GET | /alerts | Fetch alerts |
-| GET | /threat-map | Geo-IP data |
-| POST | /honeypot/log | Store honeypot logs |
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
----
+## Can I connect a custom domain to my Lovable project?
 
-## 🗄 Database Schema
+Yes, you can!
 
-### users
-- id  
-- username  
-- password (hashed)  
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-### alerts
-- id  
-- type  
-- risk_level  
-- confidence  
-- explanation  
-- timestamp  
-
-### logs
-- id  
-- source_ip  
-- activity_type  
-- data  
-- timestamp  
-
-### honeypot_logs
-- id  
-- ip_address  
-- attempt_type  
-- payload  
-- timestamp  
-
----
-
-## 🔒 Privacy & Security
-
-- Local threat processing  
-- IP anonymization  
-- Minimal data storage  
-- No third-party data sharing  
-- Zero personal data collection  
-
----
-
-## 📁 Project Structure
-AegisAI/
-├── backend/
-│ ├── app/
-│ ├── models/
-│ ├── ml/
-│ └── main.py
-│
-├── frontend/
-│ ├── src/
-│ ├── components/
-│ └── App.jsx
-│
-└── README.md
-
----
-
-## ⚙️ Installation & Setup
-
-### Backend
-
-### Frontend
-
----
-
-## 📌 Future Enhancements
-
-- SIEM integration  
-- Automated incident response  
-- Zero-trust authentication  
-- Federated learning models  
-- Blockchain-based secure logging  
-
----
-
-## 🤝 Contributions
-
-Contributions, issues, and feature requests are welcome.  
-Feel free to fork the project and submit pull requests.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-## ✨ Project Vision
-
-AegisAI aims to deliver enterprise-grade cybersecurity intelligence powered by AI — accessible, explainable, and privacy-first.
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
