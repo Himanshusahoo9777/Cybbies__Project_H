@@ -1,0 +1,7 @@
+project_id = "xnguydvtlxlhitcigfif"
+
+[functions.simulate-threats]
+verify_jwt = false
+
+[functions.analyze-threats]
+verify_jwt = false
